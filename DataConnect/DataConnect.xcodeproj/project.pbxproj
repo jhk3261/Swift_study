@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF11CC062C724FBF00D6CACE /* DataConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11CC052C724FBF00D6CACE /* DataConnectApp.swift */; };
+		AF11CC082C724FBF00D6CACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11CC072C724FBF00D6CACE /* ContentView.swift */; };
+		AF11CC0A2C724FC000D6CACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF11CC092C724FC000D6CACE /* Assets.xcassets */; };
+		AF11CC0D2C724FC000D6CACE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF11CC0C2C724FC000D6CACE /* Preview Assets.xcassets */; };
+		AF11CC172C724FC000D6CACE /* DataConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11CC162C724FC000D6CACE /* DataConnectTests.swift */; };
+		AF11CC212C724FC000D6CACE /* DataConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11CC202C724FC000D6CACE /* DataConnectUITests.swift */; };
+		AF11CC232C724FC000D6CACE /* DataConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11CC222C724FC000D6CACE /* DataConnectUITestsLaunchTests.swift */; };
+		AF11CC302C724FF900D6CACE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11CC2F2C724FF900D6CACE /* Model.swift */; };
+		AF11CC322C7251A700D6CACE /* CafeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11CC312C7251A700D6CACE /* CafeList.swift */; };
+		AF11CC342C7251F800D6CACE /* CafeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11CC332C7251F800D6CACE /* CafeDetail.swift */; };
+		AF11CC362C72529600D6CACE /* CoffeeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11CC352C72529600D6CACE /* CoffeeDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF11CC132C724FC000D6CACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF11CBFA2C724FBF00D6CACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF11CC012C724FBF00D6CACE;
+			remoteInfo = DataConnect;
+		};
+		AF11CC1D2C724FC000D6CACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF11CBFA2C724FBF00D6CACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF11CC012C724FBF00D6CACE;
+			remoteInfo = DataConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF11CC022C724FBF00D6CACE /* DataConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF11CC052C724FBF00D6CACE /* DataConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConnectApp.swift; sourceTree = "<group>"; };
+		AF11CC072C724FBF00D6CACE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF11CC092C724FC000D6CACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF11CC0C2C724FC000D6CACE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF11CC122C724FC000D6CACE /* DataConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF11CC162C724FC000D6CACE /* DataConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConnectTests.swift; sourceTree = "<group>"; };
+		AF11CC1C2C724FC000D6CACE /* DataConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF11CC202C724FC000D6CACE /* DataConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConnectUITests.swift; sourceTree = "<group>"; };
+		AF11CC222C724FC000D6CACE /* DataConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF11CC2F2C724FF900D6CACE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AF11CC312C7251A700D6CACE /* CafeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeList.swift; sourceTree = "<group>"; };
+		AF11CC332C7251F800D6CACE /* CafeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeDetail.swift; sourceTree = "<group>"; };
+		AF11CC352C72529600D6CACE /* CoffeeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF11CBFF2C724FBF00D6CACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11CC0F2C724FC000D6CACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11CC192C724FC000D6CACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF11CBF92C724FBF00D6CACE = {
+			isa = PBXGroup;
+			children = (
+				AF11CC042C724FBF00D6CACE /* DataConnect */,
+				AF11CC152C724FC000D6CACE /* DataConnectTests */,
+				AF11CC1F2C724FC000D6CACE /* DataConnectUITests */,
+				AF11CC032C724FBF00D6CACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF11CC032C724FBF00D6CACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF11CC022C724FBF00D6CACE /* DataConnect.app */,
+				AF11CC122C724FC000D6CACE /* DataConnectTests.xctest */,
+				AF11CC1C2C724FC000D6CACE /* DataConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF11CC042C724FBF00D6CACE /* DataConnect */ = {
+			isa = PBXGroup;
+			children = (
+				AF11CC052C724FBF00D6CACE /* DataConnectApp.swift */,
+				AF11CC072C724FBF00D6CACE /* ContentView.swift */,
+				AF11CC2F2C724FF900D6CACE /* Model.swift */,
+				AF11CC092C724FC000D6CACE /* Assets.xcassets */,
+				AF11CC312C7251A700D6CACE /* CafeList.swift */,
+				AF11CC332C7251F800D6CACE /* CafeDetail.swift */,
+				AF11CC352C72529600D6CACE /* CoffeeDetail.swift */,
+				AF11CC0B2C724FC000D6CACE /* Preview Content */,
+			);
+			path = DataConnect;
+			sourceTree = "<group>";
+		};
+		AF11CC0B2C724FC000D6CACE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF11CC0C2C724FC000D6CACE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF11CC152C724FC000D6CACE /* DataConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF11CC162C724FC000D6CACE /* DataConnectTests.swift */,
+			);
+			path = DataConnectTests;
+			sourceTree = "<group>";
+		};
+		AF11CC1F2C724FC000D6CACE /* DataConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF11CC202C724FC000D6CACE /* DataConnectUITests.swift */,
+				AF11CC222C724FC000D6CACE /* DataConnectUITestsLaunchTests.swift */,
+			);
+			path = DataConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF11CC012C724FBF00D6CACE /* DataConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF11CC262C724FC000D6CACE /* Build configuration list for PBXNativeTarget "DataConnect" */;
+			buildPhases = (
+				AF11CBFE2C724FBF00D6CACE /* Sources */,
+				AF11CBFF2C724FBF00D6CACE /* Frameworks */,
+				AF11CC002C724FBF00D6CACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataConnect;
+			productName = DataConnect;
+			productReference = AF11CC022C724FBF00D6CACE /* DataConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF11CC112C724FC000D6CACE /* DataConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF11CC292C724FC000D6CACE /* Build configuration list for PBXNativeTarget "DataConnectTests" */;
+			buildPhases = (
+				AF11CC0E2C724FC000D6CACE /* Sources */,
+				AF11CC0F2C724FC000D6CACE /* Frameworks */,
+				AF11CC102C724FC000D6CACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF11CC142C724FC000D6CACE /* PBXTargetDependency */,
+			);
+			name = DataConnectTests;
+			productName = DataConnectTests;
+			productReference = AF11CC122C724FC000D6CACE /* DataConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF11CC1B2C724FC000D6CACE /* DataConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF11CC2C2C724FC000D6CACE /* Build configuration list for PBXNativeTarget "DataConnectUITests" */;
+			buildPhases = (
+				AF11CC182C724FC000D6CACE /* Sources */,
+				AF11CC192C724FC000D6CACE /* Frameworks */,
+				AF11CC1A2C724FC000D6CACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF11CC1E2C724FC000D6CACE /* PBXTargetDependency */,
+			);
+			name = DataConnectUITests;
+			productName = DataConnectUITests;
+			productReference = AF11CC1C2C724FC000D6CACE /* DataConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF11CBFA2C724FBF00D6CACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AF11CC012C724FBF00D6CACE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AF11CC112C724FC000D6CACE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AF11CC012C724FBF00D6CACE;
+					};
+					AF11CC1B2C724FC000D6CACE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AF11CC012C724FBF00D6CACE;
+					};
+				};
+			};
+			buildConfigurationList = AF11CBFD2C724FBF00D6CACE /* Build configuration list for PBXProject "DataConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF11CBF92C724FBF00D6CACE;
+			productRefGroup = AF11CC032C724FBF00D6CACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF11CC012C724FBF00D6CACE /* DataConnect */,
+				AF11CC112C724FC000D6CACE /* DataConnectTests */,
+				AF11CC1B2C724FC000D6CACE /* DataConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF11CC002C724FBF00D6CACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF11CC0D2C724FC000D6CACE /* Preview Assets.xcassets in Resources */,
+				AF11CC0A2C724FC000D6CACE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11CC102C724FC000D6CACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11CC1A2C724FC000D6CACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF11CBFE2C724FBF00D6CACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF11CC362C72529600D6CACE /* CoffeeDetail.swift in Sources */,
+				AF11CC342C7251F800D6CACE /* CafeDetail.swift in Sources */,
+				AF11CC322C7251A700D6CACE /* CafeList.swift in Sources */,
+				AF11CC302C724FF900D6CACE /* Model.swift in Sources */,
+				AF11CC082C724FBF00D6CACE /* ContentView.swift in Sources */,
+				AF11CC062C724FBF00D6CACE /* DataConnectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11CC0E2C724FC000D6CACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF11CC172C724FC000D6CACE /* DataConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11CC182C724FC000D6CACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF11CC212C724FC000D6CACE /* DataConnectUITests.swift in Sources */,
+				AF11CC232C724FC000D6CACE /* DataConnectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF11CC142C724FC000D6CACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF11CC012C724FBF00D6CACE /* DataConnect */;
+			targetProxy = AF11CC132C724FC000D6CACE /* PBXContainerItemProxy */;
+		};
+		AF11CC1E2C724FC000D6CACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF11CC012C724FBF00D6CACE /* DataConnect */;
+			targetProxy = AF11CC1D2C724FC000D6CACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF11CC242C724FC000D6CACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF11CC252C724FC000D6CACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF11CC272C724FC000D6CACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataConnect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.POTE.DataConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF11CC282C724FC000D6CACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataConnect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.POTE.DataConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF11CC2A2C724FC000D6CACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.POTE.DataConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DataConnect";
+			};
+			name = Debug;
+		};
+		AF11CC2B2C724FC000D6CACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.POTE.DataConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DataConnect";
+			};
+			name = Release;
+		};
+		AF11CC2D2C724FC000D6CACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.POTE.DataConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DataConnect;
+			};
+			name = Debug;
+		};
+		AF11CC2E2C724FC000D6CACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.POTE.DataConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DataConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF11CBFD2C724FBF00D6CACE /* Build configuration list for PBXProject "DataConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF11CC242C724FC000D6CACE /* Debug */,
+				AF11CC252C724FC000D6CACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF11CC262C724FC000D6CACE /* Build configuration list for PBXNativeTarget "DataConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF11CC272C724FC000D6CACE /* Debug */,
+				AF11CC282C724FC000D6CACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF11CC292C724FC000D6CACE /* Build configuration list for PBXNativeTarget "DataConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF11CC2A2C724FC000D6CACE /* Debug */,
+				AF11CC2B2C724FC000D6CACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF11CC2C2C724FC000D6CACE /* Build configuration list for PBXNativeTarget "DataConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF11CC2D2C724FC000D6CACE /* Debug */,
+				AF11CC2E2C724FC000D6CACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF11CBFA2C724FBF00D6CACE /* Project object */;
+}
